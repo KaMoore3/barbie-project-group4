@@ -159,3 +159,29 @@ blockquote > a {
     text-align: center;
     transform: scale(2);
 }
+
+/*Award Page*/
+.academyaward {
+    animation:backflip 3s ease;
+    }
+@keyframes backflip {
+    0% {
+        transform: translateZ(0)  rotateY(0deg);
+        z-index: 10;
+      }
+      25% {
+        transform: translateZ(125%)  rotateY(-70deg);
+        z-index: 10;
+      }
+      50% {
+        transform: translateZ(0%)  rotateY(-180deg);
+        z-index: 10;
+      }
+      75% {
+        transform: translateZ(-125%)  rotateY(-270deg);
+        z-index: 10;
+      }
+      100% {
+        transform: translateZ(100px) rotateY(-360deg);
+        z-index: 10;
+      }
